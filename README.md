@@ -14,7 +14,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - 📈**Growth Record** : To document the complete process and insights of learning Deep Learning from scratch.
 
 ## Studied & Implemented Models
-- [x] 📂Softmax Regression
+- [x] 📂[Softmax Regression](./Softmax%20Regression/SoftmaxRegression.md)
 - [ ] 📂Multi-Layer Perceptron (MLP)
 
 ## Key Learning Resources
