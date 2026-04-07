@@ -22,7 +22,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 The code and content in this repository are primarily based on the following resources:
 
 - **Course**: *[Dive into Deep Learning v2](https://zh-v2.d2l.ai/)* by Aston Zhang, Zachary C. Lipton, Mu Li, and Alex J. Smola
-- **Video Course**: Mu Li's official account on Bilibili. Click here to watch video:[跟李沐学AI - 动手学深度学习](https://space.bilibili.com/1567748478/lists/358497?type=series)
+- **Video Course**: Mu Li's official account on Bilibili. Click here to watch video : [跟李沐学AI - 动手学深度学习](https://space.bilibili.com/1567748478/lists/358497?type=series)
 - **Framework**: Using PyTorch for model implementation 🔥
 
 ## About Me
