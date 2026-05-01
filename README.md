@@ -16,6 +16,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 ## Studied & Implemented Models
 - [x] 📂[Softmax Regression](./Softmax%20Regression/SoftmaxRegression.md)
 - [ ] 📂Multi-Layer Perceptron (MLP)
+- [ ] 📂[House Prices - Advanced Regression Techniques](./House%20Prices%20-%20Advanced%20Regression%20Techniques/House-Prices.md)
 
 ## Key Learning Resources
 
@@ -30,7 +31,7 @@ The code and content in this repository are primarily based on the following res
 This repository is mainly my personal learning note, but any form of communication and suggestions are welcome!
 
 - **Author**: AtomerCore
-- **Personal Github**: https://github.com/AtomerCore
+- **Personal Github**: https://github.com/AtomerCore/
 - **Personal WebSite**: https://AtomerCore.github.io/
 - **Blogs**: https://AtomerCore.github.io/blog/
 
