@@ -4,7 +4,7 @@
 [main.py](main.py)
 
 
-## Mermaid Map (GPT-5.4 mini Generated)
+## Mermaid Map
 ```mermaid
 graph TD
 A[Start] --> B[Import libraries]
