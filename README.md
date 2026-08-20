@@ -21,7 +21,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [ ] 📂Weight Decay
 - [ ] 📂Dropout
 - [ ] 📂Numerical Stability (Gradient Exploding & Vanishing)
-- [x] 📂[House Prices - Advanced Regression Techniques](House Prices - Advanced Regression Techniques/House Prices.md)
+- [x] 📂[House Prices - Advanced Regression Techniques](./House%20Prices%20-%20Advanced%20Regression%20Techniques/House%20Prices.md)
 - [ ] 📂PyTorch Neural Network Fundamentals
 - [ ] 📂Using GPUs
 - [ ] 📂[Convolutional Layer](./Convolutional%20Layer/Convolutional%20Layer.md)
