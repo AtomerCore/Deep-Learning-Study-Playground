@@ -14,9 +14,17 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - 📈**Growth Record** : To document the complete process and insights of learning Deep Learning from scratch.
 
 ## Studied & Implemented Models
+- [ ] 📂Linear Regression
 - [x] 📂[Softmax Regression](./Softmax%20Regression/SoftmaxRegression.md)
-- [ ] 📂Multi-Layer Perceptron (MLP)
-- [ ] 📂[House Prices - Advanced Regression Techniques](./House%20Prices%20-%20Advanced%20Regression%20Techniques/House-Prices.md)
+- [x] 📂[Multilayer Perceptrons (MLP)](./Multilayer%20Perceptrons/MLP.md)
+- [ ] 📂Underfitting & Overfitting
+- [ ] 📂Weight Decay
+- [ ] 📂Dropout
+- [ ] 📂Numerical Stability (Gradient Exploding & Vanishing)
+- [x] 📂[House Prices - Advanced Regression Techniques](House Prices - Advanced Regression Techniques/House Prices.md)
+- [ ] 📂PyTorch Neural Network Fundamentals
+- [ ] 📂Using GPUs
+- [ ] 📂[Convolutional Layer](./Convolutional%20Layer/Convolutional%20Layer.md)
 
 ## Key Learning Resources
 
