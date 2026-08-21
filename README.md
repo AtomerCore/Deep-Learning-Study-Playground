@@ -25,7 +25,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [ ] 📂PyTorch Neural Network Fundamentals
 - [ ] 📂Using GPUs
 - [x] 📂[Convolutional Layer](./Convolutional%20Layer/Convolutional%20Layer.md)
-- [x] [Padding & Stride](./Padding%20&%20Stride/Padding%20&%20Stride.md)
+- [x] 📂[Padding & Stride](./Padding%20&%20Stride/Padding%20&%20Stride.md)
 
 ## Key Learning Resources
 
