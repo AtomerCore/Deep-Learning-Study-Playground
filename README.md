@@ -24,7 +24,8 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [x] 📂[House Prices - Advanced Regression Techniques](./House%20Prices%20-%20Advanced%20Regression%20Techniques/House%20Prices.md)
 - [ ] 📂PyTorch Neural Network Fundamentals
 - [ ] 📂Using GPUs
-- [ ] 📂[Convolutional Layer](./Convolutional%20Layer/Convolutional%20Layer.md)
+- [x] 📂[Convolutional Layer](./Convolutional%20Layer/Convolutional%20Layer.md)
+- [x] [Padding & Stride](./Padding%20&%20Stride/Padding%20&%20Stride.md)
 
 ## Key Learning Resources
 
