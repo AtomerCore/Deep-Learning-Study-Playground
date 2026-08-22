@@ -13,7 +13,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - 🧠**Knowledge Consolidation** : To deepen the understanding of core concepts through hands-on practice.
 - 📈**Growth Record** : To document the complete process and insights of learning Deep Learning from scratch.
 
-## Studied & Implemented Models
+## Studied & Implemented Codes
 - [ ] 📂Linear Regression
 - [x] 📂[Softmax Regression](./Softmax%20Regression/SoftmaxRegression.md)
 - [x] 📂[Multilayer Perceptrons (MLP)](./Multilayer%20Perceptrons/MLP.md)
@@ -26,6 +26,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [ ] 📂Using GPUs
 - [x] 📂[Convolutional Layer](./Convolutional%20Layer/Convolutional%20Layer.md)
 - [x] 📂[Padding & Stride](./Padding%20&%20Stride/Padding%20&%20Stride.md)
+- [x] 📂[Multiple Input and Output Channels](./Multiple%20Input%20and%20Output%20Channels/Multiple%20Input%20and%20Output%20Channels.md)
 
 ## Key Learning Resources
 
