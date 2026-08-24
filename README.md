@@ -28,6 +28,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [x] 📂[Padding & Stride](./Padding%20&%20Stride/Padding%20&%20Stride.md)
 - [x] 📂[Multiple Input and Output Channels](./Multiple%20Input%20and%20Output%20Channels/Multiple%20Input%20and%20Output%20Channels.md)
 - [x] 📂[Pooling Layer](./Pooling%20Layer/Pooling%20Layer.md)
+- [x] 📂[LeNet](./LeNet/LeNet.md)
 
 ## Key Learning Resources
 
