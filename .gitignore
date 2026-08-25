@@ -2,4 +2,8 @@
 .venv/
 __pycache__/
 *.pyc
+
 /LeNet/data
+/AlexNet/data
+/VGG/data
+/NiN/data
