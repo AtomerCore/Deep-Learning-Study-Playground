@@ -23,12 +23,15 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [ ] 📂Numerical Stability (Gradient Exploding & Vanishing)
 - [x] 📂[House Prices - Advanced Regression Techniques](./House%20Prices%20-%20Advanced%20Regression%20Techniques/House%20Prices.md)
 - [ ] 📂PyTorch Neural Network Fundamentals
-- [ ] 📂Using GPUs
+- [x] 📂[Using GPUs](./Using%20GPUs/Using%20GPUs.md)
 - [x] 📂[Convolutional Layer](./Convolutional%20Layer/Convolutional%20Layer.md)
 - [x] 📂[Padding & Stride](./Padding%20&%20Stride/Padding%20&%20Stride.md)
 - [x] 📂[Multiple Input and Output Channels](./Multiple%20Input%20and%20Output%20Channels/Multiple%20Input%20and%20Output%20Channels.md)
 - [x] 📂[Pooling Layer](./Pooling%20Layer/Pooling%20Layer.md)
 - [x] 📂[LeNet](./LeNet/LeNet.md)
+- [x] 📂[AlexNet](./AlexNet/AlexNet.md)
+- [x] 📂[VGG](./VGG/VGG.md)
+- [x] 📂[NiN](./NiN/NiN.md)
 
 ## Key Learning Resources
 
