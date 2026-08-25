@@ -32,6 +32,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [x] 📂[AlexNet](./AlexNet/AlexNet.md)
 - [x] 📂[VGG](./VGG/VGG.md)
 - [x] 📂[NiN](./NiN/NiN.md)
+- [x] 📂[GoogLeNet](./GoogLeNet/GoogLeNet.md)
 
 ## Key Learning Resources
 
