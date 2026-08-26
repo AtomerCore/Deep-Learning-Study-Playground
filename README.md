@@ -33,6 +33,8 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [x] 📂[VGG](./VGG/VGG.md)
 - [x] 📂[NiN](./NiN/NiN.md)
 - [x] 📂[GoogLeNet](./GoogLeNet/GoogLeNet.md)
+- [x] 📂[Batch Normalization](./Batch%20Normalization/Batch%20Normalization.md)
+- [x] 📂[ResNet](./ResNet/ResNet.md)
 
 ## Key Learning Resources
 
@@ -42,13 +44,8 @@ The code and content in this repository are primarily based on the following res
 - **Video Course**: Mu Li's official account on Bilibili. Click here to watch video : [跟李沐学AI - 动手学深度学习](https://space.bilibili.com/1567748478/lists/358497?type=series)
 - **Framework**: Using PyTorch for model implementation 🔥
 
-## About Me
+## About
 
 This repository is mainly my personal learning note, but any form of communication and suggestions are welcome!
-
-- **Author**: AtomerCore
-- **Personal Github**: https://github.com/AtomerCore/
-- **Personal WebSite**: https://AtomerCore.github.io/
-- **Blogs**: https://AtomerCore.github.io/blog/
 
 Happy Coding & Learning! 🚀
