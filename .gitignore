@@ -8,3 +8,5 @@ __pycache__/
 /VGG/data
 /NiN/data
 /GoogLeNet/data
+/Batch Normalization/data
+/ResNet/data
