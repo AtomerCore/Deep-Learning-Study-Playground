@@ -35,6 +35,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [x] 📂[GoogLeNet](./GoogLeNet/GoogLeNet.md)
 - [x] 📂[Batch Normalization](./Batch%20Normalization/Batch%20Normalization.md)
 - [x] 📂[ResNet](./ResNet/ResNet.md)
+- [x] 📂[Classify Leaves](./Classify%20Leaves/Classify%20Leaves.md)
 
 ## Key Learning Resources
 
