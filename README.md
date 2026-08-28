@@ -1,6 +1,6 @@
 # Deep-Learning-Study-Playground
 
-Welcome to my Deep Learning code repository!
+Welcome to the Deep Learning code repository!
 
 I am a student currently exploring the field of Deep Learning. This repository serves as a code log of my learning journey, primarily following the classic tutorial *Dive into Deep Learning (D2L)* by Mu Li and others.
 
