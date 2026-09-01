@@ -181,8 +181,8 @@ def train_ch6(net, train_iter, test_iter, num_epochs, lr, device):
     net.apply(init_weights)
     print('training on', device)
     net.to(device)
-    optimizer = torch.optim.SGD(net.parameters(), lr=lr)
-    loss = nn.CrossEntropyLoss()
+    optimizer = torch.optim.AdamW(net.parameters(), lr=1e-3, weight_decay=0.01)
+    loss = nn.CrossEntropyLoss(label_smoothing=0.1)
     animator = Animator(xlabel='epoch', xlim=[1, num_epochs],
                             legend=['train loss', 'train acc', 'test acc'])
     timer, num_batches = Timer(), len(train_iter)
@@ -222,7 +222,7 @@ def try_gpu(i=0):
 # ResNet
 class Residual(nn.Module):
     def __init__(self, input_channels, num_channels,
-                 use_1x1conv=False, strides=1):
+                 use_1x1conv=False, strides=1, dropout=0.3):
         super().__init__()
         self.conv1 = nn.Conv2d(input_channels, num_channels,
                                kernel_size=3, padding=1, stride=strides)
@@ -235,9 +235,12 @@ class Residual(nn.Module):
             self.conv3 = None
         self.bn1 = nn.BatchNorm2d(num_channels)
         self.bn2 = nn.BatchNorm2d(num_channels)
+        self.dropout = nn.Dropout(dropout)
+
     def forward(self, X):
         Y = F.relu(self.bn1(self.conv1(X)))
         Y = self.bn2(self.conv2(Y))
+        Y = self.dropout(Y)
         if self.conv3:
             X = self.conv3(X)
         Y += X
@@ -253,27 +256,35 @@ def resnet_block(input_channels, num_channels, num_residuals,
     blk = []
     for i in range(num_residuals):
         if i == 0 and not first_block:
-            blk.append(
-                Residual(input_channels, num_channels, use_1x1conv=True,
-                         strides=2))
+            blk.append(Residual(input_channels, num_channels,
+                                use_1x1conv=True, strides=2))
+        elif i == 0 and first_block:
+            if input_channels != num_channels:
+                blk.append(Residual(input_channels, num_channels,
+                                    use_1x1conv=True, strides=1))
+            else:
+                blk.append(Residual(input_channels, num_channels))
         else:
             blk.append(Residual(num_channels, num_channels))
     return blk
 
-b2 = nn.Sequential(*resnet_block(64, 64, 2, first_block=True))
-b3 = nn.Sequential(*resnet_block(64, 128, 2))
-b4 = nn.Sequential(*resnet_block(128, 256, 2))
-b5 = nn.Sequential(*resnet_block(256, 512, 2))
+b2 = nn.Sequential(*resnet_block(64, 128, 3, first_block=True))
+b3 = nn.Sequential(*resnet_block(128, 256, 3))
 
 
 
 
-lr, num_epochs, batch_size = 0.05, 20, 256
+lr, num_epochs, batch_size = 1e-3, 50, 128
 train_iter, test_iter, num_classes, label_map = load_data_custom(batch_size, resize=96)
 
 
-net = nn.Sequential(b1, b2, b3, b4, b5, nn.AdaptiveAvgPool2d((1, 1)),
-                    nn.Flatten(), nn.Linear(512, num_classes))
+net = nn.Sequential(
+    b1, b2, b3,
+    nn.AdaptiveAvgPool2d((1, 1)),
+    nn.Flatten(),
+    nn.Dropout(0.5),
+    nn.Linear(256, num_classes)
+)
 
 train_ch6(net, train_iter, test_iter, num_epochs, lr, try_gpu())
 
