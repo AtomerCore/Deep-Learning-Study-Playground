@@ -11,3 +11,4 @@ __pycache__/
 /Batch Normalization/data
 /ResNet/data
 /Classify Leaves/data
+/Multi-GPU Training/data
