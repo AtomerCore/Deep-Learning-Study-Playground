@@ -12,3 +12,4 @@ __pycache__/
 /ResNet/data
 /Classify Leaves/data
 /Multi-GPU Training/data
+/Image Augmentation/data
