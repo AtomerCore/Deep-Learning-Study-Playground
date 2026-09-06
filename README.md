@@ -37,6 +37,7 @@ I am a student currently exploring the field of Deep Learning. This repository s
 - [x] 📂[ResNet](./ResNet/ResNet.md)
 - [x] 📂[Classify Leaves](./Classify%20Leaves/Classify%20Leaves.md)
 - [x] 📂[Multi-GPU Training](./Multi-GPU%20Training/Multi-GPU%20Training.md)
+- [x] 📂[Image Augmentation](Image%20Augmentation/Image%20Augmentation.md)
 
 ## Key Learning Resources
 
